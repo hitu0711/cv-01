@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar Design</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #f8f8f8;
+      padding: 0.5rem 2rem;
+      border-radius: 2rem;
+      margin: 1rem auto;
+      width: 80%;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .navbar .nav-links {
+      display: flex;
+      gap: 2rem;
+    }
+
+    .navbar .nav-links a {
+      text-decoration: none;
+      color: #333;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+
+    .navbar .contact-button {
+      background: #f0f0f0;
+      color: #333;
+      padding: 0.5rem 1.5rem;
+      border-radius: 2rem;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: bold;
+      border: 1px solid #ddd;
+      transition: background 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .navbar .contact-button:hover {
+      background: #333;
+      color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">CV</div>
+    <div class="nav-links">
+      font-family: "Lexend Deca", serif;
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Gallery</a>
+      <a href="#">Pricing</a>
+    </div>
+    <a href="#" class="contact-button">Contact Us</a>
+  </nav>
+</body>
+</html>
